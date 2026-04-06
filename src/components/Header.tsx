@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
+import logo from "@/assets/logo.jpeg";
 
 const navItems = ["Home", "Services", "Doctors", "Departments", "Contact Us"];
 
@@ -24,13 +25,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <button onClick={() => scrollTo("hero")} className="flex items-center gap-2">
-          <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center">
-            <span className="font-heading font-bold text-primary-foreground text-lg">K</span>
-          </div>
-          <div className="leading-tight">
-            <span className="font-heading font-bold text-primary text-lg">Karewell</span>
-            <span className="block text-[10px] font-medium text-secondary tracking-widest uppercase -mt-0.5">Hospital</span>
-          </div>
+          <img src={logo} alt="Karewell Hospital Logo" className="h-12 w-auto" />
         </button>
 
         {/* Desktop Nav */}
