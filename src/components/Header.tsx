@@ -43,7 +43,7 @@ const Header = () => {
 
         <div className="hidden md:flex items-center gap-2 text-sm text-primary font-medium">
           <Phone size={16} />
-          <span>+91 1234 567 890</span>
+          <span>080-2675 5901</span>
         </div>
 
         {/* Mobile toggle */}
