@@ -40,8 +40,8 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-semibold mb-4">Contact Info</h4>
             <ul className="space-y-3 text-sm text-primary-foreground/70">
-              <li className="flex gap-2 items-start"><MapPin size={16} className="mt-0.5 shrink-0" /> 123 Healthcare Avenue, New Delhi</li>
-              <li className="flex gap-2 items-center"><Phone size={16} className="shrink-0" /> +91 1234 567 890</li>
+              <li className="flex gap-2 items-start"><MapPin size={16} className="mt-0.5 shrink-0" /> #979/18, 25th Main Road, BSK 1st Stage, Bengaluru</li>
+              <li className="flex gap-2 items-center"><Phone size={16} className="shrink-0" /> 080-2675 5901</li>
               <li className="flex gap-2 items-center"><Mail size={16} className="shrink-0" /> info@karewellhospital.com</li>
             </ul>
           </div>
@@ -53,7 +53,7 @@ const Footer = () => {
               Our emergency department is open around the clock. Call us anytime for urgent medical assistance.
             </p>
             <div className="mt-4 inline-block px-4 py-2 rounded-lg bg-secondary text-secondary-foreground font-semibold text-sm">
-              Emergency: +91 1234 567 890
+              Emergency: 080-2675 5800
             </div>
           </div>
         </div>
