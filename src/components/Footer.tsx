@@ -53,7 +53,7 @@ const Footer = () => {
               Our emergency department is open around the clock. Call us anytime for urgent medical assistance.
             </p>
             <div className="mt-4 inline-block px-4 py-2 rounded-lg bg-secondary text-secondary-foreground font-semibold text-sm">
-              Emergency: +91 1234 567 890
+              Emergency: 080-2675 5800
             </div>
           </div>
         </div>
