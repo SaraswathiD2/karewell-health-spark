@@ -52,15 +52,6 @@ const ContactSection = () => {
                 <p className="text-muted-foreground text-sm mt-1">info@karewellhospital.com<br />support@karewellhospital.com</p>
               </div>
             </div>
-            <div className="flex gap-4 items-start">
-              <div className="w-11 h-11 rounded-lg bg-secondary/10 flex items-center justify-center shrink-0">
-                <Clock size={20} className="text-secondary" />
-              </div>
-              <div>
-                <h4 className="font-heading font-semibold text-foreground">Working Hours</h4>
-                <p className="text-muted-foreground text-sm mt-1">24/7 Emergency Services<br />OPD: Mon–Sat, 9:00 AM – 6:00 PM</p>
-              </div>
-            </div>
           </div>
 
           {/* Form */}
